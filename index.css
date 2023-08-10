@@ -59,7 +59,7 @@ main{
     flex-direction: row;
     width: auto;
     color: #fff;
-    padding: 200px;
+    padding: 150px;
     padding-top: 2%;
 }
 
@@ -92,7 +92,7 @@ main h2{
     justify-content: center;
     gap: 1rem;
     margin-left: 320px; 
-    min-height: 70vh;
+    min-height: 60vh;
 }
   
 .container-images {
