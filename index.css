@@ -1,0 +1,137 @@
+/* RESET*/
+/* RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,500;1,700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to left, #00171F , #003459, #007EA7);
+}
+
+
+a{
+    transition: all 300ms ease;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* menu*/
+/* menu*/
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul{
+    font-weight: 500;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    padding: 4rem;
+}
+
+nav li:hover{
+    transition: transform 1s;
+    transform: scale(1.15);
+    opacity: 0.7;
+}
+
+ul li{
+    list-style: none;
+}
+
+/* main e section main*/
+/* main e section main*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    color: #fff;
+    padding: 200px;
+    padding-top: 2%;
+}
+
+main section{
+    flex-direction: column;
+    width: 25%;
+}
+main h1{
+    font-weight: 700;
+    font-size: 80px;
+}
+
+main h2{
+    font-weight: 200;
+    width: 80%;
+    padding-top: 5px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+
+/*slider */
+/*slider */
+
+.container-slider {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 320px; 
+    min-height: 70vh;
+}
+  
+.container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 880px;
+    transition-duration: 1s ease;
+}
+  
+.slider {
+    height: 500px;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    border-radius: 2rem;
+}
+  
+.on {
+    opacity: 1;
+}
+  
+#prev-button, #next-button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+  
+#prev-button img, #next-button img {
+    width: 100%;
+}
+  
+#prev-button:hover, #next-button:hover{
+    opacity: 0.7;
+}
+
+#prev-button {
+    transform: rotate(180deg);
+}
